@@ -1,87 +1,83 @@
-body {}
-
+body {
+	width: 1440px;
+}
 .header {
-	background: #eee;	
+	background: #fff;	
 	font-family: 'Montserrat', serif, Arial;
 	font-style: normal;
 	color: #000;
-	box-sizing: border-box;  
-	display: flex;
+	width: 100%;
+}
+
+.header__header-block {	
+  /*border: 1px solid blue;*/
+  width: 100%;  
+	display: inline-flex;
+	justify-content: space-around;
 	align-items: center;
-	margin-top: 23px;
-	margin-left: 34px;
+	margin-bottom: 50px;
 }
-
 .logo {
-	margin-right: 258px;
-	width: 167px;
-	height: 51px;
+	margin-left: -50px;
 }
-
-.header__link,
-.header__link-secondary {
+.header__link {
 	font-family: 'Montserrat', serif, Arial;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
 	color: #000;
 	text-decoration: none;
+	margin: 15px 0 0 20px;
 }
-.header__link:nth-child(1) {
-	margin-right: 59px;
-}
-.header__link:nth-child(2) {
-	margin-right: 22px;
-}
-.header__link:nth-child(3) {
-	margin-right: 39px;
-}
-.header__link:nth-child(4) {
-	margin-right: 43px;
-}
-.header__link:hover,
-.header__link-secondary:hover {
+.header__link:hover {
 	color: #E51937;
 	border-bottom: 3px solid #E51937;
 	border-radius: 8%;
-	padding-bottom: 6px;
+	padding-bottom: 8px;
 	transition: .7s;
 }
 .header__link-active {
 	color: #E51937;
 	border-bottom: 3px solid #E51937;
 	border-radius: 8%;
-	padding-bottom: 6px;
+	padding-bottom: 8px;
 }
-.header__main-nav {
-	margin-right: 221px;
-}
-.header__secondary-nav {
-	margin-right: 37px;
-}
-.header__link-secondary:nth-child(1) {
-	margin-right: 35px;
-}
-.hamburger-menu {
-	width: 25px;
-	height: 20px;
-	border: 0;
-	margin-top: 5px; 
-}
-.line {
-	width: 25px;
-	border-bottom: 3px solid #E51937;
-	border-radius: 8%;
-	margin-bottom: 4px;
-}
+.hamburger-menu,
 .header__hamburger-menu {
 	display: none;
 }
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-	.header__main-nav,
-	.header__secondary-nav {
-		display: none;
-	}
- }
+.header__main-block {
+	background: url('image/Tesla-Wordmark-Red1.png') 0 35% no-repeat;
+}
+.header__title {
+	font-family: 'Montserrat', serif, Arial;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 90px;
+	text-align: center;
+	margin: 0;
+}
+.header__subtitle {
+	font-family: 'Montserrat', serif, Arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.header__Model {
+	display: block;
+	margin: 0 auto;
+}
+.header__footer {
+	/*border: 1px solid blue;*/
+  width: 100%;  
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header__footer_about {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
