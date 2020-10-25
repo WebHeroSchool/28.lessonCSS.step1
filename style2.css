@@ -1,5 +1,4 @@
 body {}
-
 .header {
 	background: #eee;	
 	font-family: 'Montserrat', serif, Arial;
@@ -8,8 +7,21 @@ body {}
 	box-sizing: border-box;  
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	margin-left: 33px;
+	margin-top: 23px;
+	margin-right: 33px;
+}
+
+.header__wrapper {
+	box-sizing: border-box;
+ 	display: flex;
+	align-items: center;
 	margin-top: 23px;
 	margin-left: 34px;
+	margin-left: 33px;
+	margin-top: 23px;
+	margin-right: 48px;
 }
 
 .logo {
@@ -66,7 +78,7 @@ body {}
 	width: 25px;
 	height: 20px;
 	border: 0;
-	margin-top: 5px; 
+	margin-top: 5px;
 }
 .line {
 	width: 25px;
