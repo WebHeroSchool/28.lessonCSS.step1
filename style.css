@@ -1,5 +1,7 @@
 body {
 	font-family: 'Montserrat', serif, Arial;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .header {
 	background: #fff;	
@@ -16,8 +18,8 @@ body {
 	box-sizing: border-box;
  	display: flex;
 	align-items: center;
-	margin-top: 16px;
-	margin-left: 34px;
+	margin-top: 24px;
+	margin-left: 42px;
 	margin-right: 48px;
 }
 
@@ -96,7 +98,7 @@ body {
 	color: #000;
 }
 .section__bg-logo {
-	background: url(image/Tesla-Wordmark-Red.png) 27% 0% no-repeat;
+	background: url(image/Tesla-Wordmark-Red.png) 0% 0% no-repeat;
 }
 .header__main-block {
 	text-align: center;
@@ -104,7 +106,7 @@ body {
 .header__title {
 	font-weight: 600;
 	font-size: 90px;
-	margin: 59px 0 -35px 16px;
+	margin: 58px 0 -34px 15px;
 }
 .header__subtitle {
 	font-weight: 500;
@@ -112,11 +114,11 @@ body {
 	margin-left: 16px;
 }
 .header__Model {
-	margin-right: 57px;
+	margin-right: 58px;
 }
 .header__footer {
 	display: flex;
-	margin-left: 309px;
+	margin-left: 285px;
 }
 .header__footer_about {
 	display: grid;
@@ -124,32 +126,34 @@ body {
 }
 .header__footer-pic {
 	grid-row: 1/3;
-	margin-top: 33px;
-	margin-right: 6px;
+	margin: 32px 8px 0 32px;
 }
 .header__text_big {
 	font-weight: 600;
 	font-size: 35px;
-	margin: 24px 0 -14px 0;
+	margin: 23px 0 -14px 0;
 	min-width: 102px;
 }
 .header__text_smaller {
 	font-size: 20px;
+	margin-left: 1px;
 }
 .header__text_small {
 	font-weight: 400;
 	font-size: 12px;
-	margin-top: 13px;
-	margin-left: 4px;
+	margin: 4px 0 0 1px;
 }
 .header__footer_about:nth-child(1) {
-	margin-right: 66px;
+	margin-right: -40px;
 }
 .header__footer_about:nth-child(2) {
-	margin-right: 100px;
+	margin-right: 32px;
+}
+.header__test-drive-pic {
+	margin: 32px 0 0 17px;
 }
 .header__footer_about:nth-child(3) {
-	margin-right: 30px;
+	margin-right: 29px;
 	margin-top: 11px;
 }
 .header__text_test-drive {
@@ -158,27 +162,31 @@ body {
 	font-size: 13px;
 	min-width: 100px;
 	margin-top: 36px;
-  margin-left: -11px;
+  margin-left: 1px;
 }
 .button {
 	background-color: #fff;
 	width: 160px;
 	height: 40px;
-	border: 2px solid #E51937;
+	border: 2px solid #e51937;
 }
 .header__btn {
-	margin-top: 18px;
+	margin-top: 17px;
 }
 .btn-link {
 	font-weight: 700;
 	font-size: 13px;
-	color: #000;
+	color: #e51937;
 	text-transform: uppercase;
 	text-decoration: none;
+	letter-spacing: 1px;
+}
+.header__more {
+	padding-left: 16px;
 }
 .header__arrow {
 	display: block;
-	margin: 23px auto 0 auto;
+	margin: 25px auto 0 auto;
 }
 
 
